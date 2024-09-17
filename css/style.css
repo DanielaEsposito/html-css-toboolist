@@ -53,6 +53,7 @@ button {
   padding: 5px 8px;
   margin: 5px;
   font-size: 0.7rem;
+  box-shadow: 1px 1px 1px #1b1b1b6e;
 }
 
 button:hover{
