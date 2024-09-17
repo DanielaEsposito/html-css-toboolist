@@ -59,8 +59,32 @@ li{
 }
 span{
     display: inline-block;
+    font-size: 0.7rem;
     color: white;
-    border-radius: 5px;
-    border: 1px solid black;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 3px;
+
+}
+/* button list*/
+
+.symbol{
+    display: inline-block;
+    border-radius: 50%;
     
+}
+.Editorial{
+    background-color: rgb(64, 159, 223);
+}
+.Q1{
+    background-color: rgb(149, 85, 221);
+}
+.Recruiting{
+    background-color: rgb(40, 167, 103);
+}
+.Mobile{
+    background-color: orange;
+}
+.sales{
+    background-color: rgb(216, 83, 154);
 }
