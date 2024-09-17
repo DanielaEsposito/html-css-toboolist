@@ -85,6 +85,7 @@ span {
   border: 1px solid;
   padding: 7px;
   margin-right: 10px;
+  vertical-align: middle;
 }
 
 .symbol {
