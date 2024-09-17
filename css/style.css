@@ -25,4 +25,23 @@ h1{
     margin: auto;
     margin-top: 30px;
     background-color: white;
+    
+}
+.button-container{
+    border-bottom: 1px solid gray;
+    
+}
+
+button{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+.add-task{
+    background-color: rgb(61, 149, 221);
+    color: white;
+}
+.add-section{
+    color: gray;
 }
