@@ -57,22 +57,33 @@ ul{
 li{
     padding: 10px;
 }
-span{
+span {
     display: inline-block;
     font-size: 0.7rem;
     color: white;
     border-radius: 10px;
     border: 1px solid;
     padding: 3px;
+    margin-right: 10px;
 
 }
 /* button list*/
 
-.symbol{
+.symbol-green{
     display: inline-block;
     border-radius: 50%;
-    
+    padding: 0px 3px;
+    color: green;
+    border: 1px solid green;   
 }
+.symbol-red{
+    display: inline-block;
+    border-radius: 50%;
+    padding: 0px 3px;
+    color: red;
+    border: 1px solid red;   
+}
+
 .Editorial{
     background-color: rgb(64, 159, 223);
 }
