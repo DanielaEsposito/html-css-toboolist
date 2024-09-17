@@ -1,101 +1,112 @@
 /*reset*/
-*{
-    box-sizing: border-box;
-    padding: 0%;
-    margin: 0%;
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .container {
-    margin: 0 auto;
-    padding: 0 10px;
-    width: 1000px;
-    max-width: 100%;
-  }
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 1000px;
+  max-width: 100%;
+}
 /*boody*/
-body{
-    background-color: rgb(209, 209, 209);
+body {
+  background-color: rgb(209, 209, 209);
 }
 /*header*/
-header{
-    background-color: white;
+header {
+  background-color: white;
 }
-h1{
-    display: inline-block;
+.imglogo {
+  vertical-align: middle;
+  padding: 5px;
 }
-.container{
-    margin: auto;
-    margin-top: 30px;
-    background-color: white;
-    
+h1 {
+  display: inline-block;
+  padding:5px;
+  
+}
+.container {
+  margin: auto;
+  margin-top: 30px;
+  background-color: white;
+}
+/*main*/
+h2{
+    font-size:1.3rem;;
 }
 /*button*/
-.button-container{
-    border-bottom: 1px solid gray;
-   padding-left: 20px; 
-   padding-top: 15px;
+.button-container {
+  border-bottom: 1px solid gray;
+  padding-left: 20px;
+  padding-top: 15px;
 }
 
-button{
-    border-radius: 5px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
+button {
+  border-radius: 7px;
+  border: 1px solid rgb(255, 255, 255);
+  padding:5px 8px;
+  margin: 5px;
+  font-size: 0.7rem;
 }
-.add-task{
-    background-color: rgb(61, 149, 221);
-    color: white;
+.add-task {
+  background-color: rgb(61, 149, 221);
+  color: white;
 }
-.add-section{
-    color: gray;
+.add-section {
+  color: gray;
 }
 /*list*/
-.list{
-    padding: 20px 20px;
+.list {
+  padding: 20px 20px;
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
-li{
-    padding: 10px;
-}
-span {
-    display: inline-block;
-    font-size: 0.7rem;
-    color: white;
-    border-radius: 10px;
-    border: 1px solid;
-    padding: 3px;
-    margin-right: 10px;
-
+li {
+  padding: 10px;
 }
 /* button list*/
 
-.symbol-green{
-    display: inline-block;
-    border-radius: 50%;
-    padding: 0px 3px;
-    color: green;
-    border: 1px solid green;   
-}
-.symbol-red{
-    display: inline-block;
-    border-radius: 50%;
-    padding: 0px 3px;
-    color: red;
-    border: 1px solid red;   
+span {
+  display: inline-block;
+  font-size: 0.7rem;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid;
+  padding: 5px;
+  margin-right: 10px;
 }
 
-.Editorial{
-    background-color: rgb(64, 159, 223);
+.symbol-green {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 1px 4px;
+  color: green;
+  border: 1px solid green;
 }
-.Q1{
-    background-color: rgb(149, 85, 221);
+.symbol-red {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 1px 4px;
+  color: red;
+  border: 1px solid red;
 }
-.Recruiting{
-    background-color: rgb(40, 167, 103);
+
+.Editorial {
+  background-color: rgb(64, 159, 223);
 }
-.Mobile{
-    background-color: orange;
+.Q1 {
+  background-color: rgb(149, 85, 221);
 }
-.sales{
-    background-color: rgb(216, 83, 154);
+.Recruiting {
+  background-color: rgb(40, 167, 103);
+}
+.Mobile {
+  background-color: orange;
+}
+.sales {
+  background-color: rgb(216, 83, 154);
 }
