@@ -27,9 +27,11 @@ h1{
     background-color: white;
     
 }
+/*button*/
 .button-container{
     border-bottom: 1px solid gray;
-    
+   padding-left: 20px; 
+   padding-top: 15px;
 }
 
 button{
@@ -44,4 +46,21 @@ button{
 }
 .add-section{
     color: gray;
+}
+/*list*/
+.list{
+    padding: 20px 20px;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding: 10px;
+}
+span{
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    
 }
