@@ -21,7 +21,7 @@ header {
 }
 .imglogo {
   vertical-align: middle;
-  padding: 5px;
+  padding-bottom: 10px;
 }
 h1 {
   display: inline-block;
@@ -31,15 +31,18 @@ h1 {
   margin: auto;
   margin-top: 30px;
   background-color: white;
+  border-radius: 10px;
 }
 /*main*/
 h2 {
   font-size: 1.3rem;
 }
 /*button*/
+hr {
+  color: rgb(129, 126, 126);
+}
 .button-container {
   width: 100%;
-  border-bottom: 1px solid gray;
   padding-left: 20px;
   padding-top: 15px;
 }
@@ -50,6 +53,10 @@ button {
   padding: 5px 8px;
   margin: 5px;
   font-size: 0.7rem;
+}
+
+button:hover{
+    border: 1px solid black ;
 }
 .add-task {
   background-color: rgb(61, 149, 221);
@@ -76,15 +83,13 @@ span {
   color: white;
   border-radius: 20px;
   border: 1px solid;
-  padding: 5px;
+  padding: 7px;
   margin-right: 10px;
 }
 
-.symbol{
-    width: 10px;
-    height: 10px;
-    
-
+.symbol {
+  width: 10px;
+  height: 10px;
 }
 
 .symbol-green {
