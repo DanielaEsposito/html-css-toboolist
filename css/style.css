@@ -3,11 +3,11 @@
   box-sizing: border-box;
   padding: 0%;
   margin: 0%;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .container {
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 ;
   width: 1000px;
   max-width: 100%;
 }
@@ -19,14 +19,13 @@ body {
 header {
   background-color: white;
 }
-.imglogo {
+.page-header-img,
+.page-header-title {
   vertical-align: middle;
-  padding-bottom: 10px;
-}
-h1 {
   display: inline-block;
-  padding: 5px;
+  padding: 10px;
 }
+
 .container {
   margin: auto;
   margin-top: 30px;
@@ -43,21 +42,24 @@ hr {
 }
 .button-container {
   width: 100%;
-  padding-left: 20px;
+  padding-left: 60px;
   padding-top: 15px;
 }
 
 button {
+  display: inline-block;
   border-radius: 7px;
   border: 1px solid rgb(255, 255, 255);
   padding: 5px 8px;
   margin: 5px;
   font-size: 0.7rem;
+  font-weight: bold;
+  cursor: pointer;
   box-shadow: 1px 1px 1px #1b1b1b6e;
 }
 
-button:hover{
-    border: 1px solid black ;
+button:hover {
+  border: 1px solid black;
 }
 .add-task {
   background-color: rgb(61, 149, 221);
@@ -68,7 +70,7 @@ button:hover{
 }
 /*list*/
 .list {
-  padding: 20px 20px;
+  padding: 20px 60px;
 }
 ul {
   list-style: none;
@@ -91,8 +93,10 @@ span {
 }
 
 .symbol {
-  width: 10px;
-  height: 10px;
+  font-size: .08rem;
+  width: 15px;
+  height: 15px;
+  vertical-align: 15px;
 }
 
 .symbol-green {
@@ -125,6 +129,6 @@ span {
 .sales {
   background-color: rgb(216, 83, 154);
 }
-.Website{
-    background-color: rgb(109, 189, 93);
+.Website {
+  background-color: rgb(109, 189, 93);
 }
